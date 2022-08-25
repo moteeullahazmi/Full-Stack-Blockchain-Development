@@ -1,0 +1,10 @@
+img{
+    filter: blur(1px);
+    filter: brightness(90%);
+    filter: contrast(70%);
+    filter: drop-shadow(10px 5x green);
+    filter: grayscale(10%);
+    filter: hue-rotate(90deg);
+    filter: invert (100%);
+    filter: opacity(50%);
+}

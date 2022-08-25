@@ -1,0 +1,46 @@
+/* 1)static (by default)
+2) relative
+3) absolute
+4) fixed
+
+1) top
+2) bottom
+3) left
+4) right */
+
+#div{
+    border-top: 1px solid;
+    height: 200px;
+    width: 600px;
+}
+
+#one{
+    border-top: 1px solid;
+    height: 150px;
+    width: 100px;
+    margin: 20px;
+    display:inline-block;
+    background-color: aqua;
+}
+#two{
+    border-top: 1px solid;
+    height: 150px;
+    width: 100px;
+    margin: 20px;
+    display:inline-block;
+    background-color: aqua;
+    /* position: relative;
+    top: 50px;
+    left: 50; */
+    position: absolute;
+    left:50px;
+}
+#three{
+    border-top: 1px solid;
+    height: 150px;
+    width: 100px;
+    margin: 20px;
+    display:inline-block;
+    background-color: aqua;
+
+}
