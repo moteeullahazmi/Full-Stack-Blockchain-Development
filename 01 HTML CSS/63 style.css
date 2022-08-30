@@ -1,0 +1,16 @@
+li{
+    font-size: 20px;
+}
+li:first-child{
+    color: violet;
+}
+li:last-child{
+    color: brown;
+}
+
+li:nth-child(2){
+    color: blue;
+}
+li:nth-last-child(2){
+    color: green;
+}

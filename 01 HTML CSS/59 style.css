@@ -1,0 +1,28 @@
+caption{
+    border: 1px solid yellow;
+}
+table{
+    border: 1px solid;
+    /* border-collapse: collapse ; */
+    /* height: 100px;
+    width: 400px; */
+    border-spacing: 10px;
+    empty-cells: hide;
+    table-layout: fixed;
+}
+tr{
+    border: 1px solid;
+
+}
+th{
+    
+        border: 1px solid red;
+        height: 40px;
+}
+td{
+    border: 1px solid green;
+    height: 20px;
+    padding-left:5px;
+    text-align: justify;
+    vertical-align: top;
+}

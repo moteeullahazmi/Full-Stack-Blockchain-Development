@@ -1,0 +1,19 @@
+div
+{   border: 1px solid;
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(violet, indigo,blue,green,yellow, orange,red);
+  }
+
+  #radial{
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(blue,black);
+  }
+  #conic{
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(blue,black,gold, pink);
+  }

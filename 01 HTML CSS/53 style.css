@@ -1,0 +1,11 @@
+div{
+    background-color:coral;
+    border: 5px solid;
+    font-size: 50px;
+    height:100px;
+    box-shadow:10px 15px 25px 5px greenyellow 
+    inset, 10px 15px 25px 5px greenyellow;
+    
+
+
+}

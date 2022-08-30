@@ -1,0 +1,17 @@
+a{
+    font-size: 25px;
+}
+div{
+    color: green;
+}
+#blue{
+    color: blue;
+}
+
+#initial{
+    color:initial;
+}
+
+#inherit{
+    color: inherit;
+}
