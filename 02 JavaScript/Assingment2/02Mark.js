@@ -7,37 +7,34 @@
 // g. “Student has failed” if the marks are between 0 and 40.
 // h. Else output “Invalid marks”.
 
-
-let marks = 81;
-
-switch(marks){
-    case 90<=100:
-        console.log("S Grade");
-    break;
-
-    case 80<=90 :
-        console.log("A Grade");
-    break;
-
-    case (70<=80):
-        console.log("B Grade");
-    break;
-
-    case (60<=70):
-        console.log("C Grade");
-    break;
-
-    case (60<=70):
-        console.log("D Grade");
-    break;
-
-    case (60<=70):
-        console.log("E Grade");
-    break;
-
-    case (60<=70):
-        console.log("Student has failed” if the marks are between 0 and 40");
-    break;
+function grade(marks) {
+ 
+  switch (true) {
+    case 90 <= marks && marks <= 100:
+      console.log("S grade");
+      break;
+    case 80 <= marks && marks <= 90:
+      console.log("A grade");
+      break;
+    case 70 <= marks && marks <= 80:
+      console.log("B grade");
+      break;
+    case 60 <= marks && marks <= 70:
+      console.log("C grade");
+      break;
+    case 50 <= marks && marks <= 60:
+      console.log("D grade");
+      break;
+    case 40 <= marks && marks <= 50:
+      console.log("E grade");
+      break;
+    case 0 <= marks && marks <= 40:
+      console.log("Student has Failed");
+      break;
     default:
-        console.log("Invalid marks");   
+      console.log("Invalid Marks");
+      break;
+  }
 }
+
+grade(80);
