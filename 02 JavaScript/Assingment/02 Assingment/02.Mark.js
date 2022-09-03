@@ -9,7 +9,7 @@
 
 function grade(marks) {
  
-  switch (true) {
+  switch (marks>=0) {
     case 90 <= marks && marks <= 100:
       console.log("S grade");
       break;
@@ -37,4 +37,7 @@ function grade(marks) {
   }
 }
 
-grade(80);
+grade(100);   
+
+          // input 100
+          // output S grade
