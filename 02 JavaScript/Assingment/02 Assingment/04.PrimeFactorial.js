@@ -20,10 +20,9 @@ function fact(x)
     for(k=x;k>1;k--)
     {  
         ans = ans*k;
-
     }
-    console.log( `${i} ${ans}`)
+    console.log(ans)
 }
 
 
-prime(1,100)
+prime(1,10)
