@@ -1,20 +1,29 @@
-function PrimeFactorial(start,end){
-    for(start; start<=end; start++){
-        isPrime=true;
-        if(start==1)
-        {
-            console.log(`{start} is prime nor composite`);
-        }
-        else if(start%start==0){
-            isPrime=false;
-            break;
-        }
-        if(isPrime){
-            console.log(`${number} is prime number`);
-        } else {
-            console.log(`${number} is not prime number`);
-        }
+function prime(n,m)
+{
+    let j = 0
+    let i = 0
+    for(i=n;i<=m;i++)
+    {
+       for(j=2;j<=i;j++)
+       {
+            if(i%j===0)
+                break;        
+       }
+       if(i===j)
+            fact(i);
     }
 }
 
-PrimeFactorial(1,100)
+function fact(x)
+{
+    let ans = 1;
+    for(k=x;k>1;k--)
+    {  
+        ans = ans*k;
+
+    }
+    console.log( `${i} ${ans}`)
+}
+
+
+prime(1,100)
