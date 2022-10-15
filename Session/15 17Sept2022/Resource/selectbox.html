@@ -1,0 +1,23 @@
+
+<html>
+    <head>
+        <title>Select Boxes </title>
+    </head>
+
+    <body>
+        <select id="selectbox">
+            <option value="Blockchain">Blockchain</option>
+            <option value="Ineuron">Ineuron</option>
+            <option value="Solidity">Solidity</option>
+            <option value="hash">Mesage Hash</option>
+        </select>
+        <button onclick="fn1()">Choose Option</button>
+
+        <script type="text/javascript">
+            function fn1(){
+                let selected=document.getElementById("selectbox");
+                window.alert(selected.options[selected.selectedIndex].value);
+            }
+        </script>
+    </body>
+</html>

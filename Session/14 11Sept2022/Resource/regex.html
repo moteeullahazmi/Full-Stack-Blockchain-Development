@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Regular expressions</title>
+    <h2> Regular expressions in DOM</h2>
+  </head>
+
+  <body>
+    <p id="regex">Welcome to Ineuron, this is full stack blockchain development</p>
+    <script>
+
+     let text="Welcome to Ineuron, this is full stack blockchain development";
+    function replaceText(){
+        let text= document.getElementById("regex").innerHTML;
+        document.getElementById("regex").innerHTML=text.replace("blockchain","Javascript");
+    }
+    </script>
+    <button onclick="replaceText()">Try the button</button>
+  </body>
+</html>

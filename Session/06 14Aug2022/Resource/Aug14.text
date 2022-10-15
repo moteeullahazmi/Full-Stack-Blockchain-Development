@@ -1,0 +1,36 @@
+// engine - v8
+
+//
+
+// 
+
+
+let add = (n1,n2) => n1 + n2;          // arrow function
+
+let result = add(8,9); // calling function
+
+// let add = function(n1,n2)      // function expression
+// {
+//     return n1 + n2;
+// }
+// let result = add(8,9); // calling function
+
+//  function add(n1,n2) {       // function statement
+//     return n1 + n2;
+//  }
+// let sum = add        // assign 
+
+// let result = sum(5,9);
+
+ console.log(result);
+
+
+// scooty pep - why should boys have all the fun
+// FP - why should objects have all the fun 
+// functional programming - functions are first class citizen
+//x = 9
+// values
+
+// define, pass, return 
+
+// define, pass, return , assign

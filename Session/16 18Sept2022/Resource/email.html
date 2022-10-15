@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Email id validation</title>
+    </head>
+
+    <body>
+        <script type="text/javascript">
+
+            function validate(){
+            let text=document.getElementById("text1").value;
+
+            //tell the regex to start and end with the following condition
+            //^ is used to start a regex
+            //$ is used to end a regex
+            //nested regex
+            let regex = /^([a-z0-9\.-]+)@([a-z0-9-]+)\.([a-z]{2,20})(.[a-z]{2,10})?$/;
+
+            if(regex.test(text)){
+                document.getElementById("lb1text").innerHTML="Valid";
+                document.getElementById("lb1text").style.visibility="Visible";
+                document.getElementById("lb1text").style.color="green";
+            }
+
+            else{
+                document.getElementById("lb1text").innerHTML="Invalid";
+                document.getElementById("lb1text").style.visibility="Visible";
+                document.getElementById("lb1text").style.color="red";
+            }
+        }
+        </script>
+        <form>
+            <input id="text1" placeholder="Email" type="text"/><br>
+            <label id="lb1text" style="color:red;visibility:hidden">Invalid</label><br>
+            <button onclick="validate()" type="button">Validate</button>
+        </form>
+    </body>
+</html>

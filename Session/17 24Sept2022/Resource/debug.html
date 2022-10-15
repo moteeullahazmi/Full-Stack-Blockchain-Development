@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>debugging</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+
+            function addition(){
+                let a=document.getElementById('t1').value;
+                let b=document.getElementById('t2').value;
+                let c=a+b;
+                document.getElementById("output").innerHTML="Result="+(c);
+            }
+        </script>
+
+        <input id="t1" placeholder="text1" type="text"/><br><br>
+        <input id="t2" placeholder="text2" type="text"/><br><br>
+        <button onclick="addition()" id="btnAddition">Add</button>
+        <h2 id="output"></h2>
+    </body>
+</html>

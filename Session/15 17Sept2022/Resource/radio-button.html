@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>
+            radio-buttons
+        </title>
+        <h2>manipulate radio buttons using dom</h2>
+    </head>
+   <body>
+        <input id="rd1" name="grp1" type="radio" value="Blockchain">Blockchain</input><br>
+
+        <input id="rd2" name="grp1" type="radio"
+        value="Solidity">Solidty </input><br>
+
+        <input id="rd3" name="grp1" type="radio"
+        value="Hyperleder">Hyperleder </input><br>
+
+        <input id="rd4" name="grp1" type="radio"
+        value="Polygon">Polygon </input><br>
+
+        <input id="rd5" name="grp1" type="radio"
+        value="Polkadot">Polkadot </input><br>
+
+        <button onclick="fn1()" id="btn1">Click here</button>
+        
+
+        <script type="text/javascript">
+            function fn1(){
+
+                let rd1= document.getElementById("rd1");
+                let rd2= document.getElementById("rd2");
+                let rd3= document.getElementById("rd3");
+                let rd4= document.getElementById("rd4");
+                let rd5= document.getElementById("rd5");
+
+                if(rd1.checked==true){
+                    alert("the topic for todays class is "+ rd1.value)
+                }
+                else if(rd2.checked==true){
+                    alert("the topic for todays class is " +rd2.value)
+                }
+                else if(rd3.checked==true){
+                    alert("the topic for todays class is " +rd3.value)
+                }
+                else if(rd4.checked==true){
+                    alert("the topic for todays class is " +rd4.value)
+                }
+                else if(rd5.checked==true){
+                    alert("the topic for todays class is " +rd5.value)
+                }
+                else{
+                    alert("no response is selected");
+                }
+            }
+        </script>
+    </body>
+</html>

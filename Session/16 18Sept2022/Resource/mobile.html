@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Mobile number validation</title>
+    </head>
+
+    <body>
+        <script type="text/javascript">
+
+            function validate(){
+            let text=document.getElementById("text1").value;
+
+            //tell the regex to start and end with the following condition
+            //^ is used to start a regex
+            //$ is used to end a regex
+            let regex = /^\[6-9]\d{3}-\d{3}-\d{4}$/;
+;
+
+            if(regex.test(text)){
+                document.getElementById("lb1text").innerHTML="Valid";
+                document.getElementById("lb1text").style.visibility="Visible";
+                document.getElementById("lb1text").style.color="green";
+            }
+
+            else{
+                document.getElementById("lb1text").innerHTML="Invalid";
+                document.getElementById("lb1text").style.visibility="Visible";
+                document.getElementById("lb1text").style.color="red";
+            }
+        }
+        </script>
+        <form>
+            <input id="text1" placeholder="Mobile number" type="text"/><br>
+            <label id="lb1text" style="color:red;visibility:hidden">Invalid</label><br>
+            <button onclick="validate()" type="button">Validate</button>
+        </form>
+    </body>
+</html>

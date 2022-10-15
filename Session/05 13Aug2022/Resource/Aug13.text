@@ -1,0 +1,102 @@
+
+
+// loop - 
+// while - pre condition 
+// do while - post condition
+// for loop
+
+// let y = 1;      // init
+
+// while(y <= 5)      // condition
+// {
+//     console.log("Hello " + y);
+//     y++;            // increment/decrement
+// } 
+
+//     init; condi; inc 
+// nested loop
+
+// for(let i=1;i<=4;i++)       // 2
+// {
+//     for(let j=1; j<=5; j++) // 1
+//     {
+//         console.log(j);
+//     }
+//     console.log("the end");
+// }
+
+
+
+// continue
+
+// wake up, fresh, coffee,
+// work, learn
+
+// Switch...
+
+
+// sat, sunday - 6am
+// mon - friday - 8am
+// wed - 7am
+
+// let day = "sun";
+
+// if(day === "sun" && day === "sat")
+//     console.log("6am");
+// else if(day === "mon")
+//     console.log("8am");
+// else if(day === "wed")
+//     console.log("7am");
+// else 
+//     console.log("Keep Dreaming...")
+
+// let day = "ii";
+// switch(day)
+// {
+//     case "sat": case "sun":
+//        console.log("6am");
+//        break;
+//     case "mon":
+//     case "tue":
+//     case "thu":
+//     case "fri":    
+//         console.log("8am");
+//         break;
+//     case "wed":
+//         console.log("7am");
+//     default:
+//         console.log("Keep Dreaming...")    
+// }
+// -----------------------------------------------
+// functions... 
+
+// procedures, functions, objects
+// functions are first-class citizens
+
+// DRY - Dont Repeat Yourself
+// duplicate...
+// crime, criminals
+
+// function doSomething()       // defining
+// {
+//     let name = "Navin";
+//     console.log(name);
+// }
+
+// // doSomething()       // calling
+// let num1 = 8;
+// let num2 = 6;
+// let num3 = 9;
+
+// function add(n1,n2,n3=0)
+// {
+//     return n1 + n2 + n3;
+// }
+
+// let result = add(num1, num2);    // add(8,6)
+// console.log(result);
+
+// Object - theory
+
+
+

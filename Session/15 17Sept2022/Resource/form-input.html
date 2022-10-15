@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Form Input
+        </title>
+        <h2>Take input from user in HTML forms</h2>
+    </head>
+    <body>
+        <input placeholder="enter username" id="text1"><br>
+        <input type="password" id="text2" placeholder="enter password"><br>
+        <button onclick="func1()" id="btn1">Click Here</button>
+
+        <script type="text/javascript">
+            function func1(){
+                let str= document.getElementById("text1").value;
+                window.alert("the username is "+ str);
+            }
+        </script>
+    </body>
+</html>
+
